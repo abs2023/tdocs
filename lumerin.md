@@ -46,7 +46,7 @@ At this point in time, we have a great deal of new actors and demands on the ove
 
 The answer, simplistically, is to recursively use the blockchain and bitcoin concepts, coupled with smart contracts to bring together sellers of hashpower with investors and buyers of hashpower to easily and simply transact … giving those who have hashpower to those who would like to use it.  If done properly, these exchanges can be low risk and high return for all involved, but if the systems design starts to centralize, or is vulnerable to attack or misuse, the global community will not enable its sustainability.  Open source and decentralization cuts both ways...the community decides if the system fits the need with the appropriate security and visibility attributes or it ignores it to atrophy into the history books.
 
-![Hashrate Marketplace](images/macroStage5Hashrate.png "image_tooltip")
+![Hashrate Marketplace](images/macroStage5Hashrate.svg "image_tooltip")
 **Figure 3.1 - Lumerin Hashrate Marketplace Conceptual Architecture**
 
 The Lumerin Marketplace utilizes the Ethereum based blockchain to mint and mine Lumerin tokens. These blocks will hold smart contracts and transactions that describe sellers’ hashrate capabilities and combine them with buyers’ intended investment.  The reward and transaction fees for both the Lumerin blocks and also the end-chain blocks (Bitcoin in this example) are distributed in a prorated fashion to the hashrate providers, with percentages going to the hashrate buyers (return on investments) and the marketplace enablers. 
