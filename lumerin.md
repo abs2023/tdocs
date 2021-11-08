@@ -1,6 +1,6 @@
 # Lumerin Introduction 
-
-October 2021 | Sorber, Alan | DRAFT 
+November 2021 | DRAFT 
+Latest update: November 8, 2021
 
 
 ## Overview
@@ -58,28 +58,55 @@ The Lumerin Marketplace utilizes the Ethereum based blockchain to mint and mine 
 1. Connect to lumerin.io and signup to become hashrate provider (KYC and AML checks) 
 1. Purchase Lumerin token (ERC 21) with Ethereum or other crypto via exchange 
 1. Create a "Seller's Contract" called and Implementation via the Lumerin clone factory 
-    * Essentially, publishing an agreement for: **X Hashrate for Y Duration for N Lumerin** 
-    * **[CHECKTHIS]** or a certain amount of X hashes (which would include the rate and duration) for N Lumerin
-    * **[CHECKTHIS]** Do we specify which crypto they're available to mine on (or is this future capaiblity ... multiple crypto?)
+    * Publishing an agreement for purchasing "Solution Difficulty" 
+    * **X Hashrate for Y Duration for N Lumerin** 
 1. Submit the Contract to the Lumerin Network Blockchain 
     * Gas will be required to post since we are altering / writing to the world state 
 1. Wait...for the contract to be accepted and executed 
-    * Seller can revoke/invalidate the contract at any time
-    * **[CHECKTHIS]** Contract may also be revoked if hashrate promised is not proven or available 
+    * Seller or Buyer can revoke/invalidate the contract at any time for any reason
 
-### Contract State 
+### Contract State (offered and waiting)
 1. Active and valid contracts are waiting for purchase in the Lumerin Marketplace / Interface 
 
 ### Buyer's Journey (Purchasing Contract)
 1. Connect to lumerin.io and signup to become hashrate consumer (KYC and AML checks) 
-1. Purchase Lumerin token (ERC 21) with Ethereum or other crypto via exchange 
+1. Purchase Lumerin token (ERC 20) with Ethereum or other crypto via exchange 
 1. Browse open contracts
-    **[CHECKTHIS]** Is there a search function, aggregation function (these 10, those 12...etc...)
 1. Select the contract(s) desired and provide source of Lumerin, Gas and target return address 
-1. Wait .... for the contract to be executed 
+1. Wait .... for the contract to be executed on the target pool
 
-### Contract State 
-1. Contract is Executing 
+### Contract State (execution)
+1. Contract is Executing  
 1. Lumerin tokens from buyer are in escrow, waiting for successful execution 
-1. Instructions are sent to Mining node / Farm to execute contract on desired pool for desired crypto for agreed contract terms (hashrate)
+1. Instructions are sent to Mining Farm to execute contract on desired pool for desired crypto for agreed contract terms (difficulty/hashrate)
+1. Mining begins...(mining farm has become part of the desired pool and solving target hashes)
 
+### Contract State (early termination) 
+1. If contract is executing and the contract is terminated early, the contract will be concluded and pro-rated (based on hashrate actually delivered) Lumerin will be transferred to seller and remainder transferred back to buyer
+    * Termination can happen at buyer or seller request or for any failure where the agreed hashrate is not delivered 
+1. Example: 
+    * A 24 hour contract has been purchased 
+    * In the 12th hour of execution the seller's mining farm goes offline
+    * When the farm recovers and compares mined block height (duration), decides that 1/2 the contract was performed 
+    * 1/2 the agreed contract amount will be transferred from escrow to the seller, 
+    * 1/2 the remaining contract amount will be transferred from escrow to the buyer, 
+    * Contract will be closed
+
+### Contract State (successful completion)
+1. Upon successful completion and verification of executed hashrate
+1. Full amount of purchase will be transferred from escrow to buyer 
+1. Contract will be closed 
+1. Any rewards or incentives from target blockchain mining will be transferred from that pool directly to buyer's account
+
+### Summary 
+We have walked through a brief (and truncated) history of crypto-mining and the unbalancing and rebalancing mechanisms and practices put into place over time to keep the environment equitable and aligned to the foundation started many years ago. 
+With the Lumerin Blockchain, Token and Marketplace, we are enabling the next stage of balancing and commoditizing the world's hashrate and accessibility for both sellers and consumers of hashpower.
+
+For more information, visit https://www.titan.io 
+
+### Questions: 
+* **[CHECKTHIS]** Is there a search function, aggregation function (these 10, those 12...etc...)
+
+### Roadmap: 
+* Future enhancements may make checkpoint or point-in-time recovery of possible
+* Future flexibility to target specific pool or crypto currency to provide broader offering to both parties
