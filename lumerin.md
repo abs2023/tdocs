@@ -67,7 +67,7 @@ The Lumerin Marketplace utilizes the Ethereum based blockchain to mint and mine 
     * Seller or Buyer can revoke/invalidate the contract at any time for any reason
 
 ![Seller Journey](images/Seller.svg "image_tooltip")
-**Figure 3.2 - Seller's Journey**
+**Figure 3.2 - Seller Journey**
 
 ### Contract State (Valid & Active)
 1. Active and valid contracts are waiting for purchase in the Lumerin Marketplace / Interface 
