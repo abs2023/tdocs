@@ -1,6 +1,6 @@
 # Lumerin Introduction 
 November 2021 | DRAFT 
-Latest update: November 8, 2021
+Latest update: November 10, 2021
 
 
 ## Overview
