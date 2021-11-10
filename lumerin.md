@@ -51,6 +51,7 @@ The answer, simplistically, is to recursively use the blockchain and bitcoin con
 
 The Lumerin Marketplace utilizes the Ethereum based blockchain to mint and mine Lumerin tokens. These blocks will hold smart contracts and transactions that describe sellers’ hashrate capabilities and combine them with buyers’ intended investment.  The reward and contract fees for the Lumerin blocks are distributed back to the hashrate providers upon successful completion of the contract while the contract buyers share in the potential mining reward on the designated blockchain.
 
+
 ### Seller's Journey (Offering Contract)
 1. Download the Lumerin open source software and install on node 
     * Setup, configuration and details included in that repository
@@ -65,15 +66,20 @@ The Lumerin Marketplace utilizes the Ethereum based blockchain to mint and mine 
 1. Wait...for the contract to be accepted and executed 
     * Seller or Buyer can revoke/invalidate the contract at any time for any reason
 
-### Contract State (offered and waiting)
+![Seller's Journey](images/Seller.svg "image_tooltip")
+**Figure 3.2 - Seller's Journey**
+
+### Contract State (Valid & Active)
 1. Active and valid contracts are waiting for purchase in the Lumerin Marketplace / Interface 
 
 ### Buyer's Journey (Purchasing Contract)
 1. Connect to lumerin.io and signup to become hashrate consumer (KYC and AML checks) 
 1. Purchase Lumerin token (ERC 20) with Ethereum or other crypto via exchange 
-1. Browse open contracts
-1. Select the contract(s) desired and provide source of Lumerin, Gas and target return address 
+1. Browse open contracts & select the contract(s) desired and provide source of Lumerin, Gas and target return address 
 1. Wait .... for the contract to be executed on the target pool
+
+![Buyer's Journey](images/Buyer.svg "image_tooltip")
+**Figure 3.2 - Buyer's Journey**
 
 ### Contract State (execution)
 1. Contract is Executing  
