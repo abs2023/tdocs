@@ -66,7 +66,7 @@ The Lumerin Marketplace utilizes the Ethereum based blockchain to mint and mine 
 1. Wait...for the contract to be accepted and executed 
     * Seller or Buyer can revoke/invalidate the contract at any time for any reason
 
-![Seller's Journey](images/Seller.svg "image_tooltip")
+![Seller Journey](images/Seller.svg "image_tooltip")
 **Figure 3.2 - Seller's Journey**
 
 ### Contract State (Valid & Active)
@@ -78,8 +78,8 @@ The Lumerin Marketplace utilizes the Ethereum based blockchain to mint and mine 
 1. Browse open contracts & select the contract(s) desired and provide source of Lumerin, Gas and target return address 
 1. Wait .... for the contract to be executed on the target pool
 
-![Buyer's Journey](images/Buyer.svg "image_tooltip")
-**Figure 3.2 - Buyer's Journey**
+![Buyer Journey](images/Buyer.svg "image_tooltip")
+**Figure 3.2 - Buyer Journey**
 
 ### Contract State (execution)
 1. Contract is Executing  
@@ -104,15 +104,16 @@ The Lumerin Marketplace utilizes the Ethereum based blockchain to mint and mine 
 1. Contract will be closed 
 1. Any rewards or incentives from target blockchain mining will be transferred from that pool directly to buyer's account
 
+![Contract Journey](images/contract.svg "image_tooltip")
+**Figure 3.2 - Contract Journey**
+
 ### Summary 
 We have walked through a brief (and truncated) history of crypto-mining and the unbalancing and rebalancing mechanisms and practices put into place over time to keep the environment equitable and aligned to the foundation started many years ago. 
 With the Lumerin Blockchain, Token and Marketplace, we are enabling the next stage of balancing and commoditizing the world's hashrate and accessibility for both sellers and consumers of hashpower.
 
-For more information, visit https://www.titan.io 
+For more information, visit https://titan.io or https://lumerin.io
 
-### Questions: 
-* **[CHECKTHIS]** Is there a search function, aggregation function (these 10, those 12...etc...)
 
-### Roadmap: 
+### Roadmap [CHECKTHIS: TO BE DELETED]: 
 * Future enhancements may make checkpoint or point-in-time recovery of possible
 * Future flexibility to target specific pool or crypto currency to provide broader offering to both parties
