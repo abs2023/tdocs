@@ -69,9 +69,6 @@ The Lumerin Marketplace utilizes the Ethereum based blockchain to mint and mine 
 ![Seller Journey](images/Seller.svg "image_tooltip")
 **Figure 3.2 - Seller Journey**
 
-### Contract State (Valid & Active)
-1. Active and valid contracts are waiting for purchase in the Lumerin Marketplace / Interface 
-
 ### Buyer's Journey (Purchasing Contract)
 1. Connect to lumerin.io and signup to become hashrate consumer (KYC and AML checks) 
 1. Purchase Lumerin token (ERC 20) with Ethereum or other crypto via exchange 
@@ -81,13 +78,14 @@ The Lumerin Marketplace utilizes the Ethereum based blockchain to mint and mine 
 ![Buyer Journey](images/Buyer.svg "image_tooltip")
 **Figure 3.3 - Buyer Journey**
 
-### Contract State (execution)
+### Contract Journey 
+#### Execution State
 1. Contract is Executing  
 1. Lumerin tokens from buyer are in escrow, waiting for successful execution 
 1. Instructions are sent to Mining Farm to execute contract on desired pool for desired crypto for agreed contract terms (difficulty/hashrate)
 1. Mining begins...(mining farm has become part of the desired pool and solving target hashes)
 
-### Contract State (early termination) 
+#### Early Termination Event
 1. If contract is executing and the contract is terminated early, the contract will be concluded and pro-rated (based on hashrate actually delivered) Lumerin will be transferred to seller and remainder transferred back to buyer
     * Termination can happen at buyer or seller request or for any failure where the agreed hashrate is not delivered 
 1. Example: 
@@ -98,7 +96,7 @@ The Lumerin Marketplace utilizes the Ethereum based blockchain to mint and mine 
     * 1/2 the remaining contract amount will be transferred from escrow to the buyer, 
     * Contract will be closed
 
-### Contract State (successful completion)
+#### Successful State
 1. Upon successful completion and verification of executed hashrate
 1. Full amount of purchase will be transferred from escrow to buyer 
 1. Contract will be closed 
