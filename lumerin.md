@@ -5,19 +5,19 @@ Latest update: November 10, 2021
 
 ## Overview
 
-The goal of this paper is to walk the reader through and overview of Titan’s Lumerin Marketplace and the necessity of mining the Lumerin token to ensure secure, open, equitable trading of provable hashpower. 
+The goal of this document is to walk the reader through an overview of Titan’s Lumerin Marketplace and the value of mining the Lumerin token to ensure secure, open, equitable trading of provable hashpower. 
 
 With the tremendous advancements in technology, the aggregation of mining entities, and visibility on the political and traditional financial stages, we are seeing a push to improve the efficiency and effectiveness of mining investments including leveraging wasted power existing in the power grid and excess cycles in the mining farms.  
 
-Lumerin will bring together owners/sellers of hashpower with buyers of that hashpower that can be designed to trade much like a standard utility or commodity. All of this will be done by re-building on the concepts and foundation of a decentralized, secure and open ledger system that self secures and self supports.
+Lumerin will bring together owners/sellers of hashpower with buyers of that hashpower that can be designed to trade much like a standard utility or commodity. All of this will be done by leveraging the concepts and foundation of a decentralized, secure and open ledger system that self secures and self supports.
 
-In order to understand the advancement and necessity of a blockchain marketplace like Lumerin, we must start at the beginning.
+In order to understand the necessity of a blockchain marketplace like Lumerin, we must start at the beginning.
 
 ## Stage 1 - Basics
 ![Blockchain fundamentals](images/macroStage1Base.svg "image_tooltip")
 **Figure 1.1 - Basic value transfer in the Bitcoin blockchain** 
 
-Blockchain, via the invention and introduction of BitCoin, is a secure, decentralized ledger system for managing value transfer between parties in the digital (and eventually physical) world. Many books and websites can provide an introduction to blockchain and we will not rehash (pun intended) the full history here.
+Blockchain, via the invention and introduction of BitCoin, is a secure, decentralized ledger system for managing value transfer between parties in the digital (and physical) world. Many books and websites can provide an introduction to blockchain and we will not rehash (pun intended) the full history here.
 
 As Figure 1.1 illustrates, electrical power is consumed by specialized mining computers which are owned and managed by miners to secure blocks of Bitcoin transactions between buyers and sellers that yield both a reward (Bitcoin/coinbase and transaction bounties) and a surety that the transactions are valid, immutable and proper.  This security is via solving complex hashing algorithms that take large amounts of energy to produce thereby, as time passes, ensuring the immutability of the block (no one else could consume enough power or use enough hardware to ‘reverse’ transactions). 
 
@@ -79,7 +79,7 @@ The Lumerin Marketplace utilizes the Ethereum based blockchain to mint and mine 
 1. Wait .... for the contract to be executed on the target pool
 
 ![Buyer Journey](images/Buyer.svg "image_tooltip")
-**Figure 3.2 - Buyer Journey**
+**Figure 3.3 - Buyer Journey**
 
 ### Contract State (execution)
 1. Contract is Executing  
@@ -105,15 +105,10 @@ The Lumerin Marketplace utilizes the Ethereum based blockchain to mint and mine 
 1. Any rewards or incentives from target blockchain mining will be transferred from that pool directly to buyer's account
 
 ![Contract Journey](images/contract.svg "image_tooltip")
-**Figure 3.2 - Contract Journey**
+**Figure 3.4 - Contract Journey**
 
 ### Summary 
 We have walked through a brief (and truncated) history of crypto-mining and the unbalancing and rebalancing mechanisms and practices put into place over time to keep the environment equitable and aligned to the foundation started many years ago. 
 With the Lumerin Blockchain, Token and Marketplace, we are enabling the next stage of balancing and commoditizing the world's hashrate and accessibility for both sellers and consumers of hashpower.
 
 For more information, visit https://titan.io or https://lumerin.io
-
-
-### Roadmap [CHECKTHIS: TO BE DELETED]: 
-* Future enhancements may make checkpoint or point-in-time recovery of possible
-* Future flexibility to target specific pool or crypto currency to provide broader offering to both parties
