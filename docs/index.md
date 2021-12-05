@@ -1,7 +1,7 @@
 
 ## Welcome to GitHub Pages
 
-[Lumerin Overview] (/00-overview.md)
+[Lumerin Overview](/docs/00-overview.md "tooltip")
 
 You can use the [editor on GitHub](https://github.com/abs2023/tdocs/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
