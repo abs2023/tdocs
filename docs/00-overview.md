@@ -108,4 +108,4 @@ The Lumerin Marketplace utilizes an Ethereum-based blockchain to mine and mint L
 We have walked through a brief (and truncated) history of crypto-mining and the unbalancing and rebalancing mechanisms and practices put into place over time to keep the environment equitable and aligned to the foundation started many years ago. 
 With the Lumerin Blockchain, Token and Marketplace, we are enabling the next stage of balancing and commoditizing the world's hashrate and accessibility for both sellers and consumers of hashpower.
 
-For more information, visit https://titan.io or https://lumerin.io
+For more information, visit [titan.io](https://titan.io "titan.io") or [lumerin.io](https://lumerin.io "lumerin.io")
