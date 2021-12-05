@@ -5,7 +5,7 @@ Latest update: December 5, 2021
 
 ## Overview
 
-The goal of this document is to walk the reader through an overview of Titan’s Lumerin Marketplace and the value of mining the Lumerin token to ensure secure, open, equitable trading of provable hashpower. 
+Welcome to an overview of Titan’s Lumerin Marketplace and the value of mining the Lumerin token to ensure secure, open, equitable trading of provable hashpower. 
 
 With the tremendous advancements in technology, the aggregation of mining entities, and visibility on the global stage, there is a need to improve efficiency and effectiveness of mining investments including leveraging surplus energy existing in the power grid and excess cycles in the mining farms.  
 
